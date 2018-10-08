@@ -36,6 +36,114 @@ html {
     text-shadow: none;
 }
 
+
+.menu {
+
+    height: 150px;
+    background-color: red;
+    margin-bottom: 5px;
+
+}
+                
+        
+@media screen and (min-width: 500px) {
+ .header {
+                
+    height: 432px;
+    background-color: yellow;
+    margin-bottom: 20px;
+    margin-left:100px;
+    margin-right:100px;
+                            
+    }
+}        
+
+.header {
+                
+    height: 432px;
+    background-color: yellow;
+    margin-bottom: 20px;
+
+                    
+}
+
+@media screen and (min-width: 500px) {
+ .breadcrumbs {
+                
+        height: 50px;
+        background-color: red;
+        margin-bottom: 10px;
+        align-self: center;
+        margin-left:100px;
+        margin-right:100px;
+    }
+}            
+                
+ .breadcrumbs {
+                
+    height: 50px;
+    background-color: red;
+    margin-bottom: 10px;
+    align-self: center;
+        
+                    
+}
+                
+@media screen and (min-width: 500px) {
+.wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-left:100px;
+    margin-right:100px;
+            
+    }
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+        
+.mainarticle {
+                
+    height: 1200px;
+    background-color: yellow;
+    margin-bottom: 10px;
+}
+                
+            
+.asidemain {
+                
+    height: 1200px;
+    background-color: red;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+        
+}
+        
+
+.teasercontainer {
+                
+    height: 1200px;
+    background-color: yellow;
+    margin-bottom: 100px;
+                
+}
+                
+.footer {
+                
+    height: 250px;
+    background-color: red;
+    margin-bottom: 10px;
+    margin-bottom: 100px;
+    }
+
+
+
+
+
+
+
 /*
  * A better looking default horizontal rule
  */
