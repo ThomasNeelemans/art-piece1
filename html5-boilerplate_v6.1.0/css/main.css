@@ -36,21 +36,27 @@ html {
     text-shadow: none;
 }
 
+.body {
+    background: black;
+}
+
 
 .menu {
 
-    height: 150px;
-    background-color: red;
+
     margin-bottom: 5px;
+    background-color: white;
+    text-align: center;
 
 }
                 
         
 @media screen and (min-width: 500px) {
- .header {
+ .stage {
                 
-    height: 432px;
-    background-color: yellow;
+
+    background-color: white;
+    text-align: center;
     margin-bottom: 20px;
     margin-left:100px;
     margin-right:100px;
@@ -58,10 +64,11 @@ html {
     }
 }        
 
-.header {
+.stage {
                 
-    height: 432px;
-    background-color: yellow;
+
+    background-color: white;
+    text-align: center;
     margin-bottom: 20px;
 
                     
@@ -70,21 +77,20 @@ html {
 @media screen and (min-width: 500px) {
  .breadcrumbs {
                 
-        height: 50px;
-        background-color: red;
-        margin-bottom: 10px;
-        align-self: center;
+
+    background-color: white;
+    text-align: center;
         margin-left:100px;
         margin-right:100px;
     }
 }            
                 
  .breadcrumbs {
-                
-    height: 50px;
-    background-color: red;
-    margin-bottom: 10px;
-    align-self: center;
+
+    background-color: white;
+    text-align: center;
+
+
         
                     
 }
@@ -99,44 +105,40 @@ html {
     }
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
-}
         
 .mainarticle {
                 
-    height: 1200px;
-    background-color: yellow;
-    margin-bottom: 10px;
+
+    background-color: white;
+    text-align: center;
 }
                 
             
 .asidemain {
                 
-    height: 1200px;
-    background-color: red;
-    margin-bottom: 10px;
-    margin-bottom: 10px;
+
+    background-color: white;
+    text-align: center;
+
         
 }
         
 
 .teasercontainer {
                 
-    height: 1200px;
-    background-color: yellow;
+
+    background-color: white;
+    text-align: center;
     margin-bottom: 100px;
                 
 }
                 
 .footer {
                 
-    height: 250px;
-    background-color: red;
-    margin-bottom: 10px;
-    margin-bottom: 100px;
-    }
+
+    background-color: white;
+    text-align: center;
+
 
 
 
