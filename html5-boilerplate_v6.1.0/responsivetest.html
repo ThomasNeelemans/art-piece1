@@ -1,17 +1,35 @@
-<head>
- <style>
 
-.wrapper {
-    background-image: url("all-1600.png");
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+  
+  <style>
+  
+  img {
+    display: flex;
+    justify-content: center;
     width: 100%;
-    height: 100%;
+    height: auto;
 
   }
-</style>
-</head>
-<body>
-  <div class="wrapper">
-      
-    </div>
-  </div>
-</body>
+  
+  </style>
+
+  </head>
+  <body>
+    
+<picture>
+  <source media="(min-width: 1600px)" srcset="all-1600.png 1600w">
+    <source media="(min-width: 1024px)" srcset="all-1024.png 1024w">
+      <source media="(min-width: 764px)" srcset="all-768.png 768w">
+        <source media="(min-width: 600px)" srcset="all-600.png 600w">
+          <source media="(min-width: 480px)" srcset="all-480.png 480w">
+  <img src="all-320.png" alt="320picture">
+</picture>
+
+        
+  </body>
+</html>
+
