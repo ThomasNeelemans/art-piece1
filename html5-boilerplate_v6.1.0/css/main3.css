@@ -11,9 +11,10 @@
    ========================================================================== */
 
    html {
-    color: #222;
+    color: darkgray;
     font-size: 1em;
     line-height: 1.4;
+    font-family: Lato, sans-serif;
 }
 
 /*
@@ -97,15 +98,30 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.search {
+    float: right;
+    margin-top: 0px;
+}
 
+@media screen and (min-width: 1024px) {
+    .search {
+           padding-right: 100px;
+        }
+    }
+
+@media screen and (min-width: 1220px) {
+    .search {
+           margin-top: -20px;
+        }
+    }
  
 .menu {
-    width: 290px;
+    width: 320px;
     height: 100%;
     flex-wrap: wrap;
     display: flex;
-    margin-top: 10px;
-    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 20px;
 }
 
 a:link {
@@ -114,8 +130,9 @@ a:link {
     font-size: 22px;
     color: lightblue;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 10px;
+    
 }
 
 a:hover {
@@ -125,7 +142,7 @@ color: rgb(8, 91, 146);
 
 @media screen and (min-width: 480px) {
 .menu {
-       width: 500px;
+       width: 480px;
     }
 }
 
@@ -133,64 +150,359 @@ color: rgb(8, 91, 146);
 .menu {
            width: 600px;
         }
-        }
+    }
+        
 
 @media screen and (min-width: 768px) {
 .menu {
-    width: 768px;
+    width: 800px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-.menu {
-    width: 1024px;
-    margin-left: 100px;
+    .menu {
+        margin-left: 100px;
+        }
     }
-}
+
             
-.header {
-height: 360px;
-width: 100%;
-background-color: yellow;
+.header { 
+background-color: dodgerblue;
 margin-bottom: 25px;
 }
-
+        
+        
+        
 @media screen and (min-width: 1024px) {
-.header1 {
-    margin-left: 100px;
-    margin-right: 100px;
+.header {
+    padding-left: 100px;
+    padding-right: 100px;
+        
 }
 }
 
+
+.headerimg {
+display: flex;
+justify-content: center;
+width: 100%;
+height: 100%;
+            
+}
+            
+@media screen and (min-width: 200px) {
+.headerimg {
+display: flex;
+justify-content: center;
+width: 100%;
+height: 100%;
+}
+}
+            
+            
+@media screen and (min-width: 768px) {
+.headerimg {
+position: relative;
+width: 100%;
+height: 100%;
+}
+}
+
+.headertitle {
+    position: relative;
+    height: 150px;
+    background-color: dodgerblue;
+    
+
+}
+
+@media screen and (min-width: 768px) {
+    .headertitle {
+        float: right;
+        width: 300px;
+        margin-right: 25px;
+        margin-top: -25%;
+        opacity: 0.7;
+    }
+    }
+
+.headline1 {
+    padding-top: 10px;
+    margin-left: 10px;
+    color: white;
+    font-family: Lato, sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.text1 {
+padding-top: 20px;
+margin-left: 10px;
+color: white;
+font-family: Lato, sans-serif;
+font-weight: lighter;
+font-size: 12px;
+}
+
+.target {
+    width: 160px;
+    height: 20px;
+    background-color: floralwhite;
+    margin-left: 10px;
+    margin-top: 25px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    color: #6ba1ce;
+    font-family: Lato, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+
+.icon1 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding-bottom: 7px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
 .breadcrumbs {
-    height: 50px;
-    background-color: red;
+    height: 100%;
     margin-bottom: 10px;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 @media screen and (min-width: 1024px) {
 .breadcrumbs {
-    margin-left: 100px;
-    margin-right: 100px;
-    }  
+    padding-left: 100px;
+
+}
 }
 
 @media screen and (min-width: 1024px) {
 .wrapper {
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-column-gap: 2px;
     }  
 }
 
+.mainarticle {
+    height: 100%;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
-.aside {
-    height: 650px;
+.aside1 {
+    display:inline-block;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h1{
+    color: grey;
+    margin-left: 5px;
+    margin-top: 0px;
+    font-family: Lato, sans-serif;
+    font-weight: lighter;
+    font-size: 32px;
+
+}
+
+h6 {
+    color: grey;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-family: Lato, sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+
+}
+
+.article {
     width: 100%;
 }
 
+.articlevideo {
+    float: left;
+
+}
+
+.videoimg {
+    width: 99%;
+    justify-content: center;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 5px;
+
+}
+.textstuff {
+    float: left;
+    width: 100%;
+
+}
+.ulcircles {
+
+    list-style: disc;
+    padding-left: 20px;
+
+}
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td  {
+    border: 1px solid grey;
+    text-align: left;
+    padding:5px;
+}
+
+th {
+    background-color: #6ba1ce;
+}
+@media screen and (min-width: 200px) {
+    .dummy1 {
+   width: 100%;
+   float: left;
+   padding-right:5px;
+}
+}
+
+@media screen and (min-width: 480px) {
+    .dummy1 {
+    width: 480px;
+    margin-left: 5px;
+}
+}
+.form1 {
+    float: left;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid grey;
+    margin-bottom: 5px;
+}
+@media screen and (min-width: 768px) {
+    .form1 {
+        display: none;
+    }
+}
+.form2 {
+    float: left;
+    width: 100%;
+    margin-right: 55px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 767px) {
+    .form2 {
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    .form2 {
+        float: left;
+        width: 100%;
+    }
+}
+.leftform {
+    justify-self: end;
+    text-align: right;
+    margin-top: 6px;
+   
+}
+
+.rightform{
+    width:100%;
+    margin-left: 10px;
+}
+.wrapform2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 2px;
+    margin-right: 15px;
+
+}
+
+.buttons {
+    float: left;
+}
+
+.mandatory {
+    float: right;
+}
+input {
+    width: 100%;
+
+}
+
+textarea {
+    width: 100%;
+    border-color: lightgrey;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 40px;
+}
+input[type="checkbox"] {
+    display: inline-block;
+    width: 15px;
+    margin-right: 5px;
+    margin-top: 10px;
+    vertical-align: 2px;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    width: 15px;
+    margin-right: 5px;
+    margin-top: 10px;
+    vertical-align: 2px;
+}
+select {
+ width: 100%;
+ height: 30px;
+}
+
+input[type=submit] {
+    background-color: #6ba1ce;
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 70px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=reset] {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    padding: 10px;
+    width: 70px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+.asidemain {
+    height: 900px;
+    margin-bottom: 10px;
+}
 ul {
     list-style: none;
     padding: 0px;
@@ -217,7 +529,7 @@ h2 {
     
 }
 
-h3 {
+.titleicon {
     color: #6ba1ce;
     margin: 0px;
     font-family: Lato, sans-serif;
@@ -225,6 +537,14 @@ h3 {
     font-size: 15px;
     }
 
+h3 {
+    color: rgb(165, 165, 165);
+    margin: 0px;
+    font-family: Lato, sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+
+}
 h4 {
     color: rgb(165, 165, 165);
     margin: 0px;
@@ -254,37 +574,43 @@ h4 {
 
 
 
-.mainarticle {
-    height: 900px;
-    background-color:yellow;
-    margin-bottom: 10px;
-}
+p {
 
-.asidemain {
-    height: 900px;
-    background-color:red;
-    margin-bottom: 10px;
+    margin-left: 5px;
+    font-family: Lato, sans-serif;
+    font-weight: lighter;
 }
 
 
 .teasercontainer {
+float: left;
 height: 2600px;
 width: 100%;
-background-color: yellow;
-margin-bottom: 50px;
+margin-bottom: 5px;
+background-color: azure;
 }
 
 
+
 .footer {
-height: 130px;
-width: 100%;
-background-color: red;
+    float: left;
+    height: 100px;
+    width: 100%;
+
+    background-color: grey;
+}
 
 
 
+@media screen and (min-width: 1024px) {
 
+.footer {
 
+    height: 35px;
+    background-color: grey;
+}
 
+}
 
 
 
@@ -456,10 +782,14 @@ background-color: red;
     h3 {
         orphans: 3;
         widows: 3;
+        font-family: Lato, sans-serif;
+        font-weight: lighter;
     }
 
     h2,
     h3 {
         page-break-after: avoid;
+        font-family: Lato, sans-serif;
+        font-weight: lighter;
     }
 }
