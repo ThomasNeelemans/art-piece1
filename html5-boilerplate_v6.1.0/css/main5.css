@@ -10,7 +10,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+   html {
     font-size: 1em;
     line-height: 1.4;
     font-family: Lato, sans-serif;
@@ -116,24 +116,10 @@ a:link {
     
 }
 
-
-.linkje:hover {
-    color: grey;
-}
-.navlink:hover {
-    color:grey;
-}
-
-.linkbread:hover {
-   color:grey;
-}
-
 a:hover {
     color: #026080;
 }
-.icon-arrow-right2:hover {
-    color: grey;
-}
+
 .menu {
     width: 320px;
     height: 100%;
@@ -158,7 +144,7 @@ a:hover {
 
 @media screen and (min-width: 768px) {
     .menu {
-        width: 700px;
+        width: 800px;
     }
 }
 
@@ -359,14 +345,6 @@ h5 {
     color: #575757;
 }
 
-.navlink {
-    color: #019dd3;
-    margin: 0px;
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-
-}
 .CIlink {
     color: #019dd3;
     margin: 0px;
@@ -395,86 +373,35 @@ h6 {
     font-size: 26px;
 }
 
-.article {
-    width: 100%;
-}
-
-.articlevideo {
-    display: inline-block;
-    margin-top: 20px;
-}
-
-.videoimg {
-    width: 99%;
-    justify-content: center;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    margin-bottom: 5px;
-}
-
-.textstuff {
-    width: 100%;
-    margin-right: 5px;
-    margin-top: 50px;
-}
-.ulcircles {
-    list-style: disc;
-    padding-left: 20px;
-}
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-table, th, td  {
-    border: 1px solid grey;
-    text-align: left;
-    padding:5px;
-}
-
-td {
-    color: #616161;
-}
-th {
-    background-color: #019dd3;
-    color: white;
-}
-@media screen and (min-width: 200px) {
-    .dummy1 {
-        width: 100%;
-        height: 100%;
-        padding-right:5px;
-        margin-right: 5px;
-    }
-}
-
-@media screen and (min-width: 480px) {
-    .dummy1 {
-        width: 480px;
-        margin-left: 5px;
-        margin-right: 5px;
-        float:left;
-    }
-}
-
 
 .form1 {
+    display:grid;
+    grid-template-columns: 1;
+    grid-template-rows: 8;
+    grid-column-gap: 2px;
+    margin-right: 15px;
+    width: 100%;
+    height: auto;
     border-bottom: 1px solid grey;
+    margin-bottom: 5px;
+    margin-top: 50px;
 }
+
 
 .form1inpt {
     height: auto;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     margin-top: 5px;
 }
 @media screen and (min-width: 768px) {
     .form1inpt {
         display: flex ;
         height: auto;
-        width: 100%;
+        width: 80%;
+        margin-bottom: 5px;
         margin-top: 15px;
     }
 }
-
 .form1inpt .label {
     flex: 1;
     text-align: right;
@@ -508,7 +435,7 @@ textarea {
 
 input[type=text] {
     width: 100%;
-    height: 30px;
+    height: 40px;
 }
 
 
@@ -528,13 +455,10 @@ input[type="radio"] {
     vertical-align: 2px;
 }
 select {
-    background-color: white;
     width: 100%;
     height: 30px;
 }
-input[type=number] {
-    height: 30px;
-}
+
 input[type=submit] {
     background-color: #019dd3;
     border: none;
@@ -559,231 +483,7 @@ input[type=reset] {
 }
 
 
-.aside1 {
-    width: auto;
-    margin-left: 15px;
-    margin-right: 15px;
-}
 
-@media screen and (max-width: 1024px) {
-    .aside1 {
-        margin-top: 50px;
-    }
-}
-.asidemain {
-    height: 900px;
-    margin-bottom: 10px;
-}
-.contact {
-    display: grid;
-    grid-template-columns: 110px 1fr;
-    grid-template-rows: 1fr;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: auto;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
-    column-gap: 10px;
-}
-
-.contactimg {
-    grid-area: 1/1/2/2;
-    
-    
-}
-.contacttxt {
-    grid-area: 1/2/2/2;
-}
-
-.job1 {
-    color: grey;
-}
-
-.phonenr {
-    grid-area: 1/2/2/2;
-    width: 110px;
-
-}
-.documenttypes {
-    margin-top: 30px;
-}
-
-ul {
-    list-style: none;
-    padding: 0px;
-    margin-top: 0px; 
-}
-
-.licontainer {
-    height: 60px;
-    padding-top: 10px;
-    padding-left: 10px;
-    border-bottom: 1px solid lightgray; 
-}
-
-.litext {
-    display: block;
-    padding-left: 10px;
-    margin-left: 50px;
-}
-
-.icon {
-    display: inline-block;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    stroke-width: 0;
-    stroke:lightgray;
-    fill:lightgray;
-}
-
-.teasercontainer {
-    margin-top: 50px;
-    height: 2600px;
-    width: 100%;
-    margin-bottom: 5px;
-
-}
-
-.teaserrow {
-    background-color: #e8e8e8;
-    display:inline-block;
-    position:relative;
-    padding: 15px;
-
-}
-
-@media screen and (min-width: 600px) {
-    .teaserrow {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 15px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .teaserrow {
-       padding-left: 100px;
-       padding-right: 100px;
-    }
-}
-
-@media screen and (min-width: 200px) {
-    .dummy2 {
-        justify-content: center;
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    .dummy2 {
-        width: 100%;
-        height: auto;
-        margin-right: 10px;
-    }
-}
-
-
-.teasers2 {
-    display:inline-block;
-    width:100%;
-
-
-}
-
-.testvideo {
-    display:inline-block;
-    width:100%;
-
-}
-
-.teaserwrap2 {
-    margin-top: 15px;
-    padding: 15px;
-    border-bottom: 1px solid grey;
-}
-
-@media screen and (min-width: 600px) {
-    .teaserwrap2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 15px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .teaserwrap2 {
-       padding-left: 100px;
-       padding-right: 100px;
-    }
-}
-
-@media screen and (min-width: 200px) {
-    .dummy3 {
-        justify-content: center;
-        width: 100%;
-        height: auto;
-    }
-}
-
-.dummy4 {
-        justify-content: center;
-        width: 100%;
-        height: auto;
-    }
-
-
-.finalteaser {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-}
-
-@media screen and (min-width: 600px) {
-    .finalteaser {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 
-    }
-}
-
-
-@media screen and (min-width: 1024px) {
-    .finalteaser {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-}
-
-.dummy5 {
-    width: 100%;
-    height: auto;
-}
-
-.length {
-    display: block;
-    color: grey;
-    margin-top: 0px;
-    margin-bottom: 5px;
-    font-family: Lato, sans-serif;
-    font-weight: lighter;
-    text-align: end;
-    font-size: 14px;
-
-}
-.footer {
-    height: 100px;
-    width: 100%;
-    background-color: grey;
-}
-
-@media screen and (min-width: 1024px) {
-    .footer {
-        height: 35px;
-        background-color: grey;
-    }
-}
 
 /* ==========================================================================
    Helper classes
