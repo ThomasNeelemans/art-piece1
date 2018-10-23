@@ -229,6 +229,33 @@ a:hover {
     margin-right: -12px;
 }
 
+.icon3 {
+    width: 16px;
+    height: 16px;
+    fill: #019dd3;
+    margin-left:-10px;
+    margin-right: -12px;
+}
+
+
+
+.icon2 {
+    width: 12px;
+    height: 12px;
+    fill: #019dd3;
+}
+.svgbread:hover {
+    fill: red;
+}
+.linkje {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+
+.linkje:hover {
+    color: grey;
+}
 .breadcrumbs {
     height: 100%;
     margin-bottom: 10px;
