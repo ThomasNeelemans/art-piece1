@@ -1,6 +1,5 @@
 <!doctype html>
-<html class="js sizes customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox picture srcset webworkers"
-  lang="en">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -26,6 +25,9 @@
 
   <!-- Add your site or application content here -->
 
+
+<div class="headerbar">
+
   <nav class="search">
     <input type="text" placeholder="Search..">
     <svg class="icon-search">
@@ -45,13 +47,15 @@
     <a href="#link6" class="menulink">Link 5 amet</a>
   </nav>
 
+</div> 
+
   <header class="header">
     <picture>
-      <source media="(min-width: 768px)" sizes="1280px" srcset="/Users/thomas.neelemans/art-piece1/html5-boilerplate_v6.1.0/img/1280x400.png 1280w">
-      <img src="/Users/thomas.neelemans/art-piece1/html5-boilerplate_v6.1.0/img/768x432.png" class="headerimg" alt="768headimg" /></picture>
+      <source media="(min-width: 768px)" sizes="1280px" srcset="img/1280x400.png 1280w">
+      <img src="img/768x432.png" class="headerimg" alt="headimg" /></picture>
     <div class="headertitle">
       <h1> Headline</h1>
-      <p class="text1"> Text</p>
+      <p class="text1">Text</p>
       <button type="button" class="target1"><span style="font-weight:400;">no target</span>
         <svg class="targeticon">
           <use xlink:href="#icon-arrow-right2"></use>
@@ -92,11 +96,11 @@
 
   <div class="wrapper">
     <article class="mainarticle">
-      <h2> Fundamentals I: Layout, Styling & Symantics </h2>
-      <h3> Image section (Landscape, no caption) </h3>
+      <h2>Fundamentals I: Layout, Styling & Symantics</h2>
+      <h3>Image section (Landscape, no caption)</h3>
       <div class="article">
-        <img src="/Users/thomas.neelemans/art-piece1/html5-boilerplate_v6.1.0/img/480x240.png" class="dummy1" alt="480x240">
-        <p class="dummy1txt"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin libero
+        <img src="img/480x240.png" class="dummy1" alt="480x240">
+        <p class="dummy1txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin libero
           in tellus dapibus
           congue. Duis lobortis, nibh vel fringilla fringilla, lacus velit cursus mauris, eget lacinia sapien quam a
           arcu. Aliquam varius consectetur ex, at varius erat. Sed at dapibus ante. Fusce id urna dignissim enim
@@ -108,8 +112,8 @@
         </p>
       </div>
       <div class="articlevideo">
-        <h3> Video section</h3>
-        <img src="/Users/thomas.neelemans/art-piece1/html5-boilerplate_v6.1.0/img/video.png" class="videoimg" alt="trailer1">
+        <h3>Video section</h3>
+        <img src="img/video.png" class="videoimg" alt="trailer1">
         <p> Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas odio leo,
           condimentum tristique libero sed, tincidunt tincidunt urna. Vestibulum fermentum nulla ac orci rhoncus, eget
           sagittis nisi fermentum. Nulla in diam sed arcu rhoncus consectetur. Donec et leo eget eros gravida dapibus.
@@ -120,7 +124,7 @@
         </p>
       </div>
       <div class="textstuff">
-        <h3> Copy text with all format types </h3>
+        <h3>Copy text with all format types</h3>
         <p>This is a blind text.<span class="boldtxt">Bold text makes you pay attention.</span> <sub>sub</sub>scripts
           and <sup>super</sup>scripts
           look funny.</p>
@@ -134,7 +138,7 @@
               <title>arrow-right2</title>
               <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
             </symbol>
-          </svg> This link leads to the CI. </a>
+          </svg>This link leads to the CI.</a>
         <br>
         <a href="#link8" target="_blank" class="CIlink"><svg class="icon2 icon-arrow-right2">
             <use xlink:href="#icon-arrow-right2"></use>
@@ -142,7 +146,7 @@
               <title>arrow-right2</title>
               <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
             </symbol>
-          </svg> This link leads to the CI in a new window. </a>
+          </svg>This link leads to the CI in a new window.</a>
         <table>
           <tr>
             <th>Super Nice</th>
@@ -176,12 +180,12 @@
           <div class="field"><textarea rows="4"></textarea></div>
         </div>
         <div class="form1inpt"><label class="label">Checkbox</label><br>
-          <div class="field"><input type="checkbox"> Yes <br>
-            <input type="checkbox"> No </div>
+          <div class="field"><input type="checkbox">Yes<br>
+            <input type="checkbox">No</div>
         </div>
         <div class="form1inpt"><label class="label">Radio</label><br>
-          <div class="field"><input type="radio" name="check" value="yes" checked> Yes<br>
-            <input type="radio" name="check" value="no"> No</div>
+          <div class="field"><input type="radio" name="check" value="yes" checked>Yes<br>
+            <input type="radio" name="check" value="no">No</div>
         </div>
         <div class="form1inpt"><label class="label">Selectbox</label>
           <div class="field">
@@ -206,7 +210,7 @@
     <aside class="aside1">
       <h4>Subheadline Lorem Ipsum</h4>
       <div class="contact">
-        <img src="/Users/thomas.neelemans/art-piece1/html5-boilerplate_v6.1.0/img/contact2.png" class="contactimg" alt="contactimg">
+        <img src="img/contact2.png" class="contactimg" alt="contactimg">
         <p class="contacttxt">Contact No. 3, whose name is even a little bit longer, it will defenitely cause a line
           break. In fact it is really really really long. Longer than anything else.<span class="mockmanager">Mock
             Contact Manager</span></p>
@@ -218,7 +222,7 @@
                 <title>arrow-right2</title>
                 <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
               </symbol>
-            </svg> Send E-Mail</a>
+            </svg>Send E-Mail</a>
         </div>
       </div>
       <div class="documenttypes">
@@ -234,8 +238,8 @@
               </symbol>
             </svg>
             <div class="litext">
-              <h5> PDF - Title </h5>
-              <span class="datesize"> Mar 07, 2017 | PDF | <span class="filesize"> 88 kb</span></span>
+              <h5>PDF - Title</h5>
+              <span class="datesize"> <span>Mar 07, 2017</span> | <span>PDF</span> | <span class="filesize"> 88 kb</span></span>
             </div>
           </li>
 
@@ -250,8 +254,8 @@
               </symbol>
             </svg>
             <div class="litext">
-              <h5> Image (JPG, GIF, EPS) - Title </h5>
-              <span class="datesize"> Mar 19, 2015 | JPG | <span class="filesize"> 1.49 mb</span></span>
+              <h5>Image (JPG, GIF, EPS) - Title</h5>
+              <span class="datesize"> <span>Mar 19, 2015</span> | <span>JPG</span> | <span class="filesize"> 1.49 mb</span></span>
             </div>
           </li>
 
@@ -273,8 +277,8 @@
               </symbol>
             </svg>
             <div class="litext">
-              <h5> Zip - Download </h5>
-              <span class="datesize"> Aug 03, 2009 | ZIP | <span class="filesize"> 566 kb</span></span>
+              <h5>Zip - Download</h5>
+              <span class="datesize"> <span>Aug 03, 2009</span> | <span>ZIP</span> | <span class="filesize"> 566 kb</span></span>
             </div>
           </li>
 
@@ -289,8 +293,8 @@
               </symbol>
             </svg>
             <div class="litext">
-              <h5> Word - Document Title </h5>
-              <span class="datesize"> mar 07, 2017 | DOC | <span class="filesize"> 80 kb</span></span>
+              <h5>Word - Document Title</h5>
+              <span class="datesize"> <span>Mar 07, 2017</span> | <span>DOC</span> | <span class="filesize"> 80 kb</span></span>
             </div>
           </li>
 
@@ -304,8 +308,8 @@
               </symbol>
             </svg>
             <div class="litext">
-              <h5> Excel - Document Title </h5>
-              <span class="datesize"> Sep 29, 2014 | XLSX | <span class="filesize"> 169 kb</span></span>
+              <h5>Excel - Document Title</h5>
+              <span class="datesize"> <span>March 29, 2014</span> | <span>XLSX</span> | <span class="filesize"> 169 kb</span></span>
             </div>
           </li>
 
@@ -320,8 +324,8 @@
               </symbol>
             </svg>
             <div class="litext">
-              <h5> Video - Title </h5>
-              <span class="datesize"> Jan 31, 2011 | MP4 | <span class="filesize"> 254 mb</span></span>
+              <h5>Video - Title</h5>
+              <span class="datesize"> <span>Jan 31, 2011</span> | <span>MP4</span> | <span class="filesize"> 254 mb</span></span>
             </div>
           </li>
 
@@ -334,8 +338,8 @@
               </symbol>
             </svg>
             <div class="litext">
-              <h5> Other - Document Title </h5>
-              <span class="datesize"> Jun 12, 2007 | MDI | <span class="filesize"> 127 kb</span></span>
+              <h5>Other - Document Title</h5>
+              <span class="datesize"> <span>Jun 12, 2007</span> | <span>MDI</span> | <span class="filesize"> 127 kb</span></span>
             </div>
           </li>
         </ul>
@@ -345,7 +349,7 @@
 
   <article class="teasercontainer">
     <div class="teaserrow">
-      <div class="teaserrowimg"><img src="/Users/thomas.neelemans/art-piece1/html5-boilerplate_v6.1.0/img/1500x1000.png"
+      <div class="teaserrowimg"><img src="img/1500x1000.png"
           class="dummy2" alt="1500x1000"></div>
       <div class="teaserrowtxt">
         <h4>teaserrow with default teaser with image and link (new window)</h4>
@@ -356,13 +360,13 @@
               <title>arrow-right2</title>
               <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
             </symbol>
-          </svg> open in new window</a>
+          </svg>open in new window</a>
       </div>
     </div>
     <div class="teaserwrap2">
       <div class="teasers2">
         <h4>2 teaser</h4>
-        <img src="/Users/thomas.neelemans/art-piece1/html5-boilerplate_v6.1.0/img/768x432.png" class="dummy3" alt="768x432teaser">
+        <img src="img/768x432.png" class="dummy3" alt="768x432teaser">
         <p>
           Phasellus aliquam sed dui eu rutrum. Curabitur a velit sit amet lectus iaculis scelerisque vel vitae est.
           Maecenas facilisis vehicula mauris. Maecenas nunc massa, laoreet ut placerat non, aliquet ut nisi. Vestibulum
@@ -375,8 +379,8 @@
       </div>
       <div class="testvideo">
         <h4>Test video</h4>
-        <img src="/Users/thomas.neelemans/art-piece1/html5-boilerplate_v6.1.0/img/videoplay.png" class="dummy4" alt="videoteaser">
-        <span class="length"> 3:09 </span>
+        <img src="img/videoplay.png" class="dummy4" alt="videoteaser">
+        <span class="length">3:09</span>
       </div>
     </div>
     <hr class="hr2">
@@ -384,8 +388,8 @@
     <div class="finalteaser">
       <div class="testvideofinal">
         <h4>testvid</h4>
-        <img src="/Users/thomas.neelemans/art-piece1/html5-boilerplate_v6.1.0/img/videoplay.png" class="dummy5" alt="videoteasers">
-        <span class="length"> 3:09 </span>
+        <img src="img/videoplay.png" class="dummy5" alt="videoteasers">
+        <span class="length">3:09</span>
       </div>
       <div class="testfinaldisc">
         <p>this is a test video</p>
@@ -412,8 +416,8 @@
               </symbol>
             </svg>
             <div class="litext">
-              <h5> PDF - Title </h5>
-              <span class="datesize"> Mar 07, 2017 | PDF | 1.49 mb</span>
+              <h5>PDF - Title</h5>
+              <span class="datesize"> <span>Mar 07, 2017</span> | <span>PDF</span> | <span class="filesize">1.49 mb</span>
             </div>
           </li>
         </ul>
