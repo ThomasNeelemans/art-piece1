@@ -99,6 +99,7 @@ textarea {
     box-shadow: 0px 3px 10px #019dd3;
     position: sticky;
     flex-direction: row-reverse;
+    justify-content: space-between;
     width: 100%;
     min-height: 90px;
     top: 0; 
@@ -107,16 +108,15 @@ textarea {
    }
 
  .headerbar2 {
-    background-color: white;
-    box-shadow: 0px 3px 10px #019dd3;
-    position: sticky;
     flex-direction: row;
-    width: 100%;
     min-height: 45px;
-    top: 0; 
-    z-index: 99;
-    transition: 0.5s;
  }
+
+ @media screen and (min-width: 499px) {
+    .headerbar {
+        display: flex;
+    }
+}
 
 .search {
     justify-content: flex-end;
