@@ -234,10 +234,6 @@ a.linkje {
     }
 }
 
-
-* {box-sizing:border-box}
-
-/* Slideshow container */
 .slideshow-container {
   max-width: 100%;
   height: 500px;
@@ -254,7 +250,6 @@ a.linkje {
     display: none;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -285,18 +280,15 @@ a.linkje {
     }
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: white;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -318,7 +310,6 @@ a.linkje {
   background-color: white;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 0.5s;
