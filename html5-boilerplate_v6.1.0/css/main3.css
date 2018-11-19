@@ -109,7 +109,7 @@ textarea {
 
  .headerbar2 {
     flex-direction: row;
-    min-height: 45px;
+    min-height: 35px;
  }
 
  @media screen and (min-width: 499px) {
@@ -179,15 +179,16 @@ a:link {
     color: #019dd3;
     font-size: 20px;
     transition-duration: 0.5s;
+    text-decoration: none;
+    margin: 10px 10px 0 10px;
+    
 }
+
 
 .menulink2 {
     font-size: 16px;
 }
-a.menulink {
-    text-decoration: none;
-    margin: 10px 0 0 15px;
-}
+
 
 a.menulink:hover {
     color: #026080;
@@ -328,6 +329,58 @@ a.linkje {
 }
 
 
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    color: #019dd3;
+    font-size: 20px;
+    transition-duration: 0.5s; 
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    background-color: white;
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+.dropbtn2 {
+    font-size: 16px;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #019dd3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin: 10px 0 0 10px;
+    
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    color: #026080;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 .headerimg {
     position: relative;

@@ -22,141 +22,182 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <!-- Add your site or application content here -->
-
-
   <div class="headerbar">
 
-  <nav class="search">
-    <input type="text" placeholder="Search..">
-    <svg class="icon-search">
-      <use xlink:href="#icon-search"></use>
-      <symbol id="icon-search" viewBox="0 0 32 32">
-        <title>search</title>
-        <path d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"></path>
-      </symbol>
-    </svg>
-  </nav>
+    <nav class="search">
+      <input type="text" placeholder="Search..">
+      <svg class="icon-search">
+        <use xlink:href="#icon-search"></use>
+        <symbol id="icon-search" viewBox="0 0 32 32">
+          <title>search</title>
+          <path d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"></path>
+        </symbol>
+      </svg>
+    </nav>
 
-  <nav class="menu">
-    <a href="#link1" class="menulink">Link 1 Lorem</a>
-    <a href="#link2" class="menulink">Link 2 ipsum</a>
-    <a href="#link3" class="menulink">Link 3 dolor</a>
-    <a href="#link4" class="menulink">Link 4 sit</a>
-    <a href="#link6" class="menulink">Link 5 amet</a>
-  </nav>
+    <nav class="menu">
+        <div class="dropdown">
+            <button class="dropbtn"><a href="#link8" class="menulink">Home</a>
+              <i class="fa fa-caret-down"></i>
+            </button>
+          </div>
+      <div class="dropdown">
+        <button class="dropbtn"><span class="menulink">Articles</span>
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Canada</a>
+          <a href="#">France</a>
+          <a href="#">The Netherlands</a>
+          <a href="#">Russia</a>
+          <a href="#">China</a>
+          <a href="#">Not VS</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"><span class="menulink">Video</span>
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Video 1</a>
+          <a href="#">Video 2</a>
+          <a href="#">Video 3</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"><span class="menulink">Blog</span>
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Blog 1</a>
+          <a href="#">Blog 2</a>
+          <a href="#">Blog 3</a>
+          <a href="#">Blog 4</a>
+          <a href="#">Blog 5</a>
+          <a href="#">Blog 6</a>
+        </div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn"><a href="#link9" class="menulink">Contact</a>
+            <i class="fa fa-caret-down"></i>
+          </button>
+        </div>
+    </nav>
 
-  </div> 
+  </div>
 
 
- <div class="slideshow-container">
+  <div class="slideshow-container">
 
     <div class="mySlides fade">
-        <picture>
-         <source media="(min-width: 768px)" sizes="1280px" srcset="img/headerimg1.jpg 1280w">
-         <img src="img/headerimg1.jpg" class="headerimg" alt="headimg" /></picture>
-       <div class="headertitle">
-         <h1>Awesome Title 1</h1>
-         <p class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean viverra, mauris quis dapibus hendrerit, felis dui ullamcorper tellus, ac faucibus massa ex quis dolor.</p>
-         <button type="button" class="target1"><span style="font-weight:400;">more</span>
+      <picture>
+        <source media="(min-width: 768px)" sizes="1280px" srcset="img/headerimg1.jpg 1280w">
+        <img src="img/headerimg1.jpg" class="headerimg" alt="headimg" /></picture>
+      <div class="headertitle">
+        <h1>Awesome Title 1</h1>
+        <p class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean viverra, mauris quis dapibus
+          hendrerit, felis dui ullamcorper tellus, ac faucibus massa ex quis dolor.</p>
+        <button type="button" class="target1"><span style="font-weight:400;">more</span>
           <svg class="targeticon">
             <use xlink:href="#icon-arrow-right2"></use>
             <symbol id="targeticon" viewBox="0 0 32 32">
               <title>arrow-right2</title>
               <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
             </symbol>
-           </svg>
-          </button>
-        </div>
+          </svg>
+        </button>
       </div>
-  
-      <div class="mySlides fade">
-          <picture>
-           <source media="(min-width: 768px)" sizes="1280px" srcset="img/headerimg2.jpg 1280w">
-           <img src="img/headerimg2.jpg" class="headerimg" alt="headimg" /></picture>
-         <div class="headertitle">
-           <h1>Awesome Title 2</h1>
-           <p class="text1">Nullam fringilla ornare hendrerit. Donec tempus leo at tortor ornare venenatis.</p>
-           <button type="button" class="target1"><span style="font-weight:400;">more</span>
-            <svg class="targeticon">
-              <use xlink:href="#icon-arrow-right2"></use>
-              <symbol id="targeticon" viewBox="0 0 32 32">
-                <title>arrow-right2</title>
-                <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
-              </symbol>
-             </svg>
-            </button>
-          </div>
-        </div>
+    </div>
 
-        <div class="mySlides fade">
-            <picture>
-             <source media="(min-width: 768px)" sizes="1280px" srcset="img/headerimg3.jpg 1280w">
-             <img src="img/headerimg3.jpg" class="headerimg" alt="headimg" /></picture>
-           <div class="headertitle">
-             <h1>Awesome Title 3</h1>
-             <p class="text1">Sed cursus dignissim ligula. Ut sit amet vestibulum leo. In hac habitasse platea dictumst. In vel nunc nulla.</p>
-             <button type="button" class="target1"><span style="font-weight:400;">more</span>
-              <svg class="targeticon">
-                <use xlink:href="#icon-arrow-right2"></use>
-                <symbol id="targeticon" viewBox="0 0 32 32">
-                  <title>arrow-right2</title>
-                  <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
-                </symbol>
-               </svg>
-              </button>
-            </div>
-          </div>
+    <div class="mySlides fade">
+      <picture>
+        <source media="(min-width: 768px)" sizes="1280px" srcset="img/headerimg2.jpg 1280w">
+        <img src="img/headerimg2.jpg" class="headerimg" alt="headimg" /></picture>
+      <div class="headertitle">
+        <h1>Awesome Title 2</h1>
+        <p class="text1">Nullam fringilla ornare hendrerit. Donec tempus leo at tortor ornare venenatis.</p>
+        <button type="button" class="target1"><span style="font-weight:400;">more</span>
+          <svg class="targeticon">
+            <use xlink:href="#icon-arrow-right2"></use>
+            <symbol id="targeticon" viewBox="0 0 32 32">
+              <title>arrow-right2</title>
+              <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
+            </symbol>
+          </svg>
+        </button>
+      </div>
+    </div>
 
-          <div class="mySlides fade">
-          <picture>
-           <source media="(min-width: 768px)" sizes="1280px" srcset="img/headerimg4.jpg 1280w">
-           <img src="img/headerimg4.jpg" class="headerimg" alt="headimg" /></picture>
-         <div class="headertitle">
-           <h1>Awesome Title 4</h1>
-           <p class="text1">Morbi odio ante, vestibulum at diam eu, porta rhoncus augue. Quisque tempor molestie lectus, nec facilisis neque maximus eu.</p>
-           <button type="button" class="target1"><span style="font-weight:400;">more</span>
-            <svg class="targeticon">
-              <use xlink:href="#icon-arrow-right2"></use>
-              <symbol id="targeticon" viewBox="0 0 32 32">
-                <title>arrow-right2</title>
-                <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
-              </symbol>
-             </svg>
-            </button>
-          </div>
-        </div>
+    <div class="mySlides fade">
+      <picture>
+        <source media="(min-width: 768px)" sizes="1280px" srcset="img/headerimg3.jpg 1280w">
+        <img src="img/headerimg3.jpg" class="headerimg" alt="headimg" /></picture>
+      <div class="headertitle">
+        <h1>Awesome Title 3</h1>
+        <p class="text1">Sed cursus dignissim ligula. Ut sit amet vestibulum leo. In hac habitasse platea dictumst. In
+          vel nunc nulla.</p>
+        <button type="button" class="target1"><span style="font-weight:400;">more</span>
+          <svg class="targeticon">
+            <use xlink:href="#icon-arrow-right2"></use>
+            <symbol id="targeticon" viewBox="0 0 32 32">
+              <title>arrow-right2</title>
+              <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
+            </symbol>
+          </svg>
+        </button>
+      </div>
+    </div>
 
-        <div class="mySlides fade">
-          <picture>
-           <source media="(min-width: 768px)" sizes="1280px" srcset="img/headerimg5.jpg 1280w">
-           <img src="img/headerimg5.jpg" class="headerimg" alt="headimg" /></picture>
-         <div class="headertitle">
-           <h1>Awesome Title 5</h1>
-           <p class="text1">raesent augue ligula, dapibus at molestie ultrices, pellentesque at odio.</p>
-           <button type="button" class="target1"><span style="font-weight:400;">more</span>
-            <svg class="targeticon">
-              <use xlink:href="#icon-arrow-right2"></use>
-              <symbol id="targeticon" viewBox="0 0 32 32">
-                <title>arrow-right2</title>
-                <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
-              </symbol>
-             </svg>
-            </button>
-          </div>
-        </div>
-  
+    <div class="mySlides fade">
+      <picture>
+        <source media="(min-width: 768px)" sizes="1280px" srcset="img/headerimg4.jpg 1280w">
+        <img src="img/headerimg4.jpg" class="headerimg" alt="headimg" /></picture>
+      <div class="headertitle">
+        <h1>Awesome Title 4</h1>
+        <p class="text1">Morbi odio ante, vestibulum at diam eu, porta rhoncus augue. Quisque tempor molestie lectus,
+          nec facilisis neque maximus eu.</p>
+        <button type="button" class="target1"><span style="font-weight:400;">more</span>
+          <svg class="targeticon">
+            <use xlink:href="#icon-arrow-right2"></use>
+            <symbol id="targeticon" viewBox="0 0 32 32">
+              <title>arrow-right2</title>
+              <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
+            </symbol>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <picture>
+        <source media="(min-width: 768px)" sizes="1280px" srcset="img/headerimg5.jpg 1280w">
+        <img src="img/headerimg5.jpg" class="headerimg" alt="headimg" /></picture>
+      <div class="headertitle">
+        <h1>Awesome Title 5</h1>
+        <p class="text1">raesent augue ligula, dapibus at molestie ultrices, pellentesque at odio.</p>
+        <button type="button" class="target1"><span style="font-weight:400;">more</span>
+          <svg class="targeticon">
+            <use xlink:href="#icon-arrow-right2"></use>
+            <symbol id="targeticon" viewBox="0 0 32 32">
+              <title>arrow-right2</title>
+              <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
+            </symbol>
+          </svg>
+        </button>
+      </div>
+    </div>
+
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
   <br>
-  
+
   <div class="dots">
-    <span class="dot" onclick="currentSlide(1)"></span> 
-    <span class="dot" onclick="currentSlide(2)"></span> 
-    <span class="dot" onclick="currentSlide(3)"></span> 
-    <span class="dot" onclick="currentSlide(4)"></span> 
-    <span class="dot" onclick="currentSlide(5)"></span> 
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
 
   </div>
 
@@ -442,8 +483,7 @@
 
   <article class="teasercontainer">
     <div class="teaserrow">
-      <div class="teaserrowimg"><img src="img/img2.jpg"
-          class="dummy2" alt="1500x1000"></div>
+      <div class="teaserrowimg"><img src="img/img2.jpg" class="dummy2" alt="1500x1000"></div>
       <div class="teaserrowtxt">
         <h4>teaserrow with default teaser with image and link (new window)</h4>
         <p>Set highlight for current Teaser [yes] > elemtent settings</p>
@@ -541,8 +581,8 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <script async src="js/plugins.js"></script>
+  <script async src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
