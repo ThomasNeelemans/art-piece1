@@ -1,0 +1,76 @@
+body, html{
+    background-image: url(https://images.unsplash.com/photo-1516724562728-afc824a36e84?ixlib=rb-0.3.5&s=79577d7f5af105f0d5ee6bb9cdfb21cf&auto=format&fit=crop&w=1651&q=80);
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    cursor: url('/Users/thomas.neelemans/art-piece1/html5-boilerplate_v6.1.0/img/cursor2.png') 25 25, default;
+}
+
+
+
+.overlay{
+    background-color: rgba(255,255,255,0.4);
+    height: 100%;
+    border-radius: 50%;
+    z-index: 90;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1502920917128-1aa500764cbd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a1b6b2aa881c25dfc6e13a83a8b9d6ec&auto=format&fit=crop&w=1650&q=80);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    z-index: 80;   
+    cursor: url('/Users/thomas.neelemans/art-piece1/html5-boilerplate_v6.1.0/img/cursor2.png') 25 25, default;
+}
+
+
+.circle.full{
+  width: 1000%;
+  height: 1000%;
+  transition: 250ms ease all;
+
+}
+
+.menu {
+    position: absolute;
+    z-index: 98;
+    top: 15px;
+    left: 15px;
+}
+
+.menulink {
+    color: blueviolet;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right:20px;
+    cursor: url('/Users/thomas.neelemans/art-piece1/html5-boilerplate_v6.1.0/img/cursor2.png') 25 25, default;
+}
+
+.header {
+    position: absolute;
+    z-index: 97;
+    cursor: url('/Users/thomas.neelemans/art-piece1/html5-boilerplate_v6.1.0/img/cursor2.png') 25 25, default;
+}
+
+.header1 {
+    color: blueviolet;
+    font-size: 60px;
+    text-decoration: none;
+    cursor: url('/Users/thomas.neelemans/art-piece1/html5-boilerplate_v6.1.0/img/cursor2.png') 25 25, default;
+}
+
+.header:hover {
+    cursor: url('/Users/thomas.neelemans/art-piece1/html5-boilerplate_v6.1.0/img/cursor2.png') 25 25, default;
+}
+
+.element {
+    font-size: 60px;
+    color: red;
+}
